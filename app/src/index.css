@@ -59,7 +59,7 @@ body{
 }
 
 .content{
-  
+  justify-content: center;
   font-family: 'Comic Neue',Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
@@ -67,8 +67,30 @@ body{
   margin: 20px auto;
 }
 
-.home-title h2{
+.home h1{
   font-size: 26px;
-  text-align: center;
   color: rgb(113, 77, 0);
+}
+.home p{
+  font-weight: 700;
+  color: coral;
+}
+
+
+.blog-previews{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  align-items: center;
+}
+.blog{
+  display: flex;
+
+}
+
+.blog-preview-side-image img{
+  width: 26px;
+  margin-left: auto;
 }

@@ -1,0 +1,22 @@
+{
+    "blogs":[
+		{
+			"title": "Smart fishing rod",
+			"body": "Today I finished a prototype of a smart fishing rod that was designed to be used as a convenient tool for catching fish!",
+			"author": "Fern",
+			"id": 1
+		},
+		{
+			"title": "Testing smart fishing rod",
+			"body": "Today I am going to test a smart fishing rod that was designed to be used as a convenient tool for catching fish! I am going to a pond called Froglet and hope that it works!",
+			"author": "Fern",
+			"id": 2
+		},
+		{
+			"title": "Catched my first fish",
+			"body": "After only a few minutes I was Able to catch my first fish, this fish was an eel! I am so happy it works! :)",
+			"author": "Fern",
+			"id": 3
+		}
+	]
+}
