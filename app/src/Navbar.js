@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import logo from './images/logo.png';
 
 const Navbar = () => {
@@ -6,8 +7,8 @@ const Navbar = () => {
 			<img src={logo} alt="Fern's blog" />
 			<h1>Fern's blog</h1>
 			<div className="links">
-				<a href="/">Home</a>
-				<a href="/create">Post</a>
+				<Link to="/">Home</Link>
+				<Link to="/create">Post</Link>
 			</div>
 		</nav>
 	);
