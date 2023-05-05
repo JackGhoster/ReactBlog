@@ -7,9 +7,8 @@
 body{
   background-color: rgb(255, 240, 222);
 }
-
-.navbar{
-  
+/* navbar */
+.navbar{  
   background-color: rgb(255, 232, 190);
   border: 4px solid rgb(113, 77, 0);
   border-radius: 20px;
@@ -45,7 +44,7 @@ body{
   font-weight: 700;
   text-decoration: none;
   margin-left: 20px;
-  transition: color 0.5s;
+  transition: color 0.2s;
 }
 
 .navbar a:hover{
@@ -54,10 +53,8 @@ body{
 .navbar a:active{
   color: rgb(196, 39, 0);
 }
-.navbar a:focus{
-  color: red;
-}
 
+/* main container for content */
 .content{
   justify-content: center;
   font-family: 'Comic Neue',Arial, Helvetica, sans-serif;
@@ -66,7 +63,7 @@ body{
   max-width: 600px;
   margin: 20px auto;
 }
-
+/* homepage that stores latest blogs */
 .home h1{
   font-size: 26px;
   color: rgb(113, 77, 0);
@@ -76,7 +73,7 @@ body{
   color: coral;
 }
 
-
+/* styles of blog previews */
 .blog-previews{
   text-align: center;
   display: flex;
@@ -85,12 +82,57 @@ body{
   max-width: 600px;
   align-items: center;
 }
-.blog{
+.single-blog-preview{
   display: flex;
-
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.blog-preview-text a{
+  text-decoration: none;
+  transition: text-shadow 0.25s;
+}
+.blog-preview-text h1{
+  transition: color 0.25s;
+  font-size: 36px;
+}
+.blog-preview-text h1:hover{
+  color: rgb(194, 116, 0);
 }
 
 .blog-preview-side-image img{
-  width: 26px;
-  margin-left: auto;
+  width: 42px;
+  margin-left: 5px;
+}
+
+/* Styles of the concrete blog  */
+article{
+  text-align: center;
+  margin: 10px 20px;
+}
+
+article h1{
+  color:rgb(113, 77, 0);
+  font-size: 48px;
+}
+article h2{
+  margin-top: 30px;
+  padding-left: 50px;
+  color:rgb(255, 255, 255);
+  background: -webkit-linear-gradient( rgb(113, 77, 0),rgb(255, 152, 74));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+article h3{
+  margin-top: 38px;
+  color:rgb(255, 152, 74);
+  font-size: 26px;
+  text-align: end;
+  margin-right: 20px;
 }
