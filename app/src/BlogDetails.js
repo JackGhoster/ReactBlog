@@ -16,7 +16,7 @@ const BlogDetails = () => {
 			{/* If there is some kind of error */}
 			{error && (
 				<div className="error" style={{ color: '#714d00' }}>
-					{error}
+					{error.message}
 				</div>
 			)}
 			{/* Blog itself */}

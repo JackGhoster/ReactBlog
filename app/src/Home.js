@@ -3,7 +3,7 @@ import useFetch from './useFetch';
 
 const Home = () => {
 	const dbAdress = 'http://localhost:8000/blogs';
-	const { data: blogs, isFetching, Error: error } = useFetch(dbAdress);
+	const { data: blogs, isFetching, error } = useFetch(dbAdress);
 
 	useFetch(dbAdress);
 

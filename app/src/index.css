@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Comic+Neue:wght@400;700&family=Courgette&family=Pacifico&family=Paytone+One&family=Roboto:wght@400;500&family=Shadows+Into+Light&display=swap');
 
 *{
   margin: 0;
@@ -14,7 +14,8 @@ body{
   border-radius: 20px;
   padding-left: 24px;
   padding-right: 24px;
-  font-family: 'Comic Neue',Arial, Helvetica, sans-serif;
+  /* font-family: 'Comic Neue',Arial, Helvetica, sans-serif; */
+  font-family: 'Chewy',Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
   max-width: 700px;
@@ -57,7 +58,7 @@ body{
 /* main container for content */
 .content{
   justify-content: center;
-  font-family: 'Comic Neue',Arial, Helvetica, sans-serif;
+  font-family: 'Courgette',Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
   max-width: 600px;
@@ -99,6 +100,10 @@ body{
 .blog-preview-text h1:hover{
   color: rgb(194, 116, 0);
 }
+.blog-preview-text p{
+  margin-top: 5px;
+  font-size: large;
+}
 
 .blog-preview-side-image img{
   width: 42px;
@@ -114,6 +119,7 @@ article{
 article h1{
   color:rgb(113, 77, 0);
   font-size: 48px;
+  font-family: 'Chewy', sans-serif;
 }
 article h2{
   margin-top: 30px;
@@ -124,9 +130,11 @@ article h2{
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
+  font-family: 'Courgette';
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.5px;
+  
 }
 
 article h3{
@@ -135,4 +143,5 @@ article h3{
   font-size: 26px;
   text-align: end;
   margin-right: 20px;
+  font-family: 'Chewy', sans-serif;
 }
