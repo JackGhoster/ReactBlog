@@ -1,22 +1,58 @@
 {
-    "blogs":[
-		{
-			"title": "Smart fishing rod",
-			"body": "Today I finished a prototype of a smart fishing rod that was designed to be used as a convenient tool for catching fish!",
-			"author": "Fern",
-			"id": 1
-		},
-		{
-			"title": "Testing smart fishing rod",
-			"body": "Today I am going to test a smart fishing rod that was designed to be used as a convenient tool for catching fish! I am going to a pond called Froglet and hope that it works!",
-			"author": "Fern",
-			"id": 2
-		},
-		{
-			"title": "Catched my first fish",
-			"body": "After only a few minutes I was Able to catch my first fish, this fish was an eel! I am so happy it works! :)",
-			"author": "Fern",
-			"id": 3
-		}
-	]
+  "blogs": [
+    {
+      "title": "Smart fishing rod",
+      "body": "Today I finished a prototype of a smart fishing rod that was designed to be used as a convenient tool for catching fish!",
+      "author": "Fern",
+      "id": 1
+    },
+    {
+      "title": "Testing smart fishing rod",
+      "body": "Today I am going to test a smart fishing rod that was designed to be used as a convenient tool for catching fish! I am going to a pond called Froglet and hope that it works!",
+      "author": "Fern",
+      "id": 2
+    },
+    {
+      "title": "Catched my first fish",
+      "body": "After only a few minutes I was Able to catch my first fish, this fish was an eel! I am so happy it works! :)",
+      "author": "Fern",
+      "id": 3
+    },
+    {
+      "title": "Jong Mo's new achievement",
+      "body": "People!! Have you heard of a new achievement of Jong Mo? He was so brave!! He won a fight with a bear with his BARE HANDS! Oi, what a lad, what a man he is indeed... he is a real champion if you ask me a totally not affiliated in any way with Jong Mo person! My advice is that you totally should bid on him in the \"Coliseums\"!!!",
+      "author": "Totally not Jong Mo",
+      "id": 4
+    },
+    {
+      "title": "I am the best fighter",
+      "body": "My name is Petrol and I  drive around the world and currently I am the best fighter, so you must bid on me in the \"Coliseums\"!",
+      "author": "Petrol",
+      "id": 5
+    },
+    {
+      "title": "Full Bucket of fish",
+      "body": "Only an hour but I've been able to catch a full bucket of fish already! I am so happy I can't wait to show it to my Mother and Father!!",
+      "author": "Fern",
+      "id": 6
+    },
+    {
+      "title": "Update on my fishing rod",
+      "body": "Okay, so I showed it to my parents, and while my dad was really shocked and was really happy for me and asked me to show him how to use my new device... my mom wasn't so happy, she said that I was \"doing dumb stuff again\"",
+      "author": "Fern",
+      "id": 7
+    },
+    {
+      "title": "DONT DISCUSS ME ON THIS STUPID WEBSITE!",
+      "body": "DONT DISCUSS ME ON YOUR WEBSITE HOW CAN I DELETE ALL OF YOUR POSTS??? YOU SHOULD BE LEARNING MORE SERIOUS STUFF LIKE ECONOMICS OR MEDICINE!!!",
+      "author": "MOM",
+      "id": 8
+    },
+    {
+      "title": "What will be next!",
+      "body": "I will be continue to making new versions of my rod, even despite my mom isn't very happy! And also I will try to make more useful gadgets that can help people of Mystical Forest!!!",
+      "author": "Fern",
+      "id": 9
+    }
+  ]
 }

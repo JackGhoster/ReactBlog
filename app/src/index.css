@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+::selection{
+  color: white;
+  background-color: coral;
+}
+
 body{
   background-color: rgb(255, 240, 222);
 }
@@ -144,4 +149,95 @@ article h3{
   text-align: end;
   margin-right: 20px;
   font-family: 'Chewy', sans-serif;
+}
+
+article button{
+  margin-top: 20px;
+  width: 250px;
+  height: 48px;
+  border-radius: 15px;
+  border: 2px solid rgb(113, 77, 0);
+  background-color: coral;
+
+  font-family:'Chewy';
+  font-size: 22px;
+  color:rgb(255, 251, 228);
+  transition: background-color 250ms;
+}
+article button:hover{
+  background-color: rgb(255, 88, 17);
+}
+
+/* post a new blog part */
+
+.create{
+  text-align: center;
+  font-family: 'Chewy';
+  color: rgb(184, 126, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create h2{
+  font-size: 36px;
+  color: rgb(113, 77, 0);
+  padding-bottom: 16px;
+}
+.create form{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.create form label{
+  font-size: 28px;
+  margin: 5px 0;
+  color: coral;
+}
+
+.create form input{
+  font-family: 'Courgette';
+  color: rgb(113, 77, 0);
+  font-size: 20px;
+  text-align: center;
+  height: 36px;
+  border-radius: 10px;
+  border: 2px solid rgb(113, 77, 0);
+  caret-color: rgb(174, 46, 0);
+}
+.create form input:focus{
+  outline: 2px solid coral;
+}
+
+.create textarea{
+  padding-left: 10px;
+  font-family: 'Courgette';
+  font-size: 20px;
+  color: rgb(113, 77, 0);
+  min-height: 100px;
+  min-width: 400px;
+  max-width: 400px;
+  border: 2px solid rgb(113, 77, 0);
+  border-radius: 10px;
+  caret-color: rgb(174, 46, 0);
+  
+}
+.create textarea:focus{
+  outline: 2px solid coral;
+}
+
+.create form button{
+  margin-top: 15px;
+  height: 56px;
+  border-radius: 15px;
+  border: 2px solid rgb(113, 77, 0);
+  background-color: coral;
+
+  font-family:'Chewy';
+  font-size: 32px;
+  color:rgb(255, 251, 228);
+  transition: background-color 250ms;
+}
+.create form button:hover{
+  background-color: rgb(255, 88, 17);
 }
